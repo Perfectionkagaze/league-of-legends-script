@@ -1,0 +1,7155 @@
+package main
+
+import (
+    "fmt"
+    "sync"
+    "time"
+    "crypto/sha256"
+)
+
+var ( appVersion = "4.8" )
+
+func r2SCjJEOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 173
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hwsOMAF6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 254
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 86WdZAGkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 70
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ByJlR9rJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func llxOD95oWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 13
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func D5jVwDCJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 25
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func N9NwH4VJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 88
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ac796uVdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 10
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3lymjenPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 75 + 259
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func a4lWWAT7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 289
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Ff2eAt4FWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 213
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func YSgiN6LAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 70
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func e1siwLcbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 238
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5kxSK7aXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 146
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func f0Xqpdd4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 35 + 210
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZHvV1pmTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 162
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func iIMb6HBiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 138
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Ak88hY35Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 178
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bi42zt5XWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 200
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GTWxFnZyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 52
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rhzJyoo8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 35 + 73
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func U1XGHiH2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 245
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ViPpzVXHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 182
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func kwXI6cutWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 157
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func s248IpCfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CEQIqnIcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 166
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xxwoVHQzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fe5lGttJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 230
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func C5hXmDUnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 21
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cfnaq0wjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 272
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oW2mZBAQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 108
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pbpsVn4gWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rHCuPSMGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 93
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jYUNCxLuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 203
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pNCacwCbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 121
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func x4QM6t2MWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 201
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4z3WLsEHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 42
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bcUxv4bMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XEzA8GMAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 19
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Suc6UaJhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 85
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CQ3ljt5tWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 275
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wsJIz3IzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 215
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hEGt8fFnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 37
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6T6ARGC0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 98
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func db6GAAUOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HIelMiSzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 297
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wcHmBlJ3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 220
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CrKhAYPKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 147
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lU66zX7IWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 23
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6uiv4q9wWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 284
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func eupbWHNPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 269
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2huYBWZ6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 11 + 290
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fsxdllDoWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 92
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rxabtsjYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 65
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1nLudNQtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 268
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FNkkbYHRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ufqZf6mPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 216
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HZ6GmTZRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 52
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CuONic9nWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 56
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Sw8bkPSVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 16
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pjwBd4t4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 189
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Ady4epmZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 230
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func L7F1lxfWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 210
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XBAuGd1FWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 33 + 156
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3AzornsnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 177
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hufdcNhnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 283
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cpuxU0y1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ECoCFy4oWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3A0vjLQGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 59
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func IAj76IE2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 28
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Zr1ARO3TWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nwNp1H7sWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 159
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func yr3cS8UCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TfYubfSJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 22
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1FKOwmZpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 76
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5z7KXnO1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 47
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6Iq8bN9kWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 228
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func o2LTfM9mWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2ved0ymPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 172
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func F1jq2j98Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 188
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tBBhfM9hWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 148
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CppGTx81Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 156
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ACSpChurWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 124
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func kWpEsvA1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func REkTJzKXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 18
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func paA1uJE8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 147
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5XcKm8s0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 116
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 92CL5qQ2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 74
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RbRxOmXZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 160
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func A8QeSS24Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 147
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BIhVS3A2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 34
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Vqpf9XmOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 211
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func E9Mz0WPOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EhuZK762Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5k4Cep8rWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 155
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func h8E8kNdFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 206
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TzPINZnIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 153
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VTmDb33TWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 150
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Vrm2WznTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 85
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gY8Q9PFrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 149
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func K3XgcG9IWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 274
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bri66VUgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 101
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func h6fzOL5qWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 125
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Iez8GlQ4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 78
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KUK23YOIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 102
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bXFs5EkzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 296
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aKpv7GUJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 194
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 71ejuPEOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 138
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fBUe0T92Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 182
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func G4RgB7PEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 249
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ppoAPuEUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 292
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8EgZEaxVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 21
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bAIyslAwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 183
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PP5G5Zd9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 89
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mYnrf3wuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 276
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func obeuEIKZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 259
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func j4f0v5wQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 177
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EH1bLTqEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 109
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PgYyI8o4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 91
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lXpyuj1NWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 290
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TEZewJwhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 52
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zVkrwmfVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 95
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bhNejm34Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rJYHLp7lWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 171
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sxGXAkwxWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 143
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TRvYcSfTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 85
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NFOFgyWzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 7 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sdT8Nh3pWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 151
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func H1cRVvvHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 154
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 44wz82qGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 7 + 83
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TW7PlDspWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 64 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func kaDAcUh9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 72
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func T0dTaZdHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 48
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Ug5amXyyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 263
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func f5mEdf0jWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 44
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dN1RlTXLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 297
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wVUtHyuWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 91
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func OcUnE4ocWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 208
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func E8dnM1PzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 160
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RpaxOVT3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 129
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func WfIInYt4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 180
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZzmFfNIrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 249
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AYT0RcDXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 264
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MjkHhuDCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 147
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PQgAfGX8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4JRsw7BYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 18
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func IHX7Z7IfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 107
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func D30pLDRdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 75
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func J6yApwkaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func vcEYrKh4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 28
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8vqnMJNDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 149
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BHG3bqBSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 96
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Eyxx1ozDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 106
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func IdmPuj9ZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 16
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func YJptNRrWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 48
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func y70SCe5CWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 231
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func e3mOTkCgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 276
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rsgjMCffWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 273
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QL1u4RyRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 162
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8pHzVr2aWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 81
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4H8dnaiyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 7 + 57
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tcNPDPFGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 297
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SD17sexgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 244
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9Sepky18Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 41
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func em8bBZXPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 204
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mWXCFaZ2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 51
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QrQ156Q0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 64 + 229
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RFt6oHAQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 84
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hWv2kKnlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 44
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6gGU7rj5Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 64
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gVdoIsmrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 205
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZwfSRJXUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 35
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func V3TCHKeKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 30
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dGMPMayIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 214
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EVwvpK0KWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 63
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NCeshMg3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 298
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aVtaCoaFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 75 + 278
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func H0S5TwasWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 39
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EZWke3fBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 186
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func YOYjqUXqWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 292
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9aSDuopUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 32
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func D4ISoO5RWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 168
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func So2h8TOpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 70
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Eqrx21c6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 220
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2WQ0aLB6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 206
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aDR4tnF1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 163
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func o5EmqTiiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 257
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XwpeenE8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 288
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sWQ3VSjmWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CGChcwlIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 224
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func so5L2RqXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 53
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NJGYloKYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 75
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jy95IHS2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 42
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SJ4wSxOiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 225
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func kRmErT2rWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 101
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Y9eSa0nDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 213
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3IsyZXV3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 234
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 98H0R0isWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 10
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func DNH9LvVkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 221
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func o8ZuvfuEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 146
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6kJhVDspWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 222
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func utMG8Vy4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 264
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ByCtTEbyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 228
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fbC3FZcEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 75 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zOxWBL1cWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 259
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func J0E68KpDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 194
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func V6nlkUl0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 214
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gSdYw5g8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 272
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GQuhTb3DWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 525MCuVRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 249
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lGuJsslTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 64
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bbUUPzDsWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 88
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aDrG23FMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Sm1oY8mHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 28
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HU16GnyEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 79
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JnGSBWTKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 174
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zEKkJeTIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 195
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MNLkzxoMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 286
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lmZtrXJEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 70
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4hjk2BzhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 33 + 165
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BRx3Jk9wWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 282
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LYOmduUFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 83
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Lj2cp0cPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 81 + 40
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NqiyqZGOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 28
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lGXjI1mkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 55
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2M8UuxIUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 256
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CBFdl8VfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 234
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func eDXnjNarWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 131
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3tGo973HWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 156
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Ip8YtJxmWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 35 + 235
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hGE8w15EWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 248
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BwYxa5d4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 288
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mwIZAbtKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 40
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func f9yPmfr4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 274
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZNgXelSxWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 263
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func vHfr6Y7NWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 12 + 65
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NgWNHzpfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 129
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hqvONatBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 30
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VlvKEhXXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 85
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func yyyY3YSHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 130
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3t0CNwcxWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 139
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func OzNfSyI9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XosAOh5GWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 238
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hgJ9mRmuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 33 + 101
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XKu9LHABWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 83
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LbzWaheBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 185
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mHdXyirWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 228
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oxlzeDeAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 167
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JlFsvi5mWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 177
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cAQlZBI4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FF9fku2JWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 208
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZmSL8gJuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 200
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func H5K9Ji6XWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 56
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qLuZ9I0lWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 279
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gf4kr45sWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 7 + 146
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TqDxIWLSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 250
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func k4PBocQcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 46
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CrzHYHxXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 152
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Fb6Odw6XWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 214
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jxhpdhpKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 139
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bQFfHXnQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 262
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wsIrGMwwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 247
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2emhLwrFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 35 + 55
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func diOgGcYgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 151
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GKO8s8paWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 12 + 289
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jSmd7Y4nWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5fDKWn9TWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 121
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6HFcWH4cWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 109
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mf1vZ2CkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 20
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wgGZUVyUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 242
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NEh2pC6CWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 245
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func y1UhI0qQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 23
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9Mds3GHgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 96
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func N3NosC7gWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 49
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2lCG486dWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 38
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NFuLNMl2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 186
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lZfcC9bQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 183
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MtiQ9dJEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 59
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func DjqZ5R2FWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 175
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NNcXVqbSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 105
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nKtqqtnoWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 216
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SPKTMYeHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 100
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pZp5Hxo3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 281
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EMFAxq1DWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 230
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Ysc4zBo2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 144
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zMsoI6SGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 56
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func J1J8vh4qWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 295
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func y0fTUE5EWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 184
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func iEqTarj8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 34
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JqRhRjPAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 206
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func m9P15S4YWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 269
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2VkUb2VuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 11
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func c4quDOyCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jPPB7dz9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 61
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KomU7sJ5Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 267
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JUbYzPDFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 132
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 44TmaTUeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 160
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3LDRiCf8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 146
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UFGeMPu3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 10
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KMavsuQLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 128
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rzTfRrSuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 90
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tiZIowXoWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 266
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dClGJuEHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 279
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jQspKBT3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 128
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2WWlKVJQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 246
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HsDZYSfAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 263
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zMWhArHRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PFJWTEGjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 35
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KgcApm1EWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 91
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Py9p2hjcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 203
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func W4aThzQbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 172
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fJs5UxvSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 88 + 170
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func REraYBD8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 160
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func or2gDAoiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 168
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 54un45MuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 61
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func L8OmbjbnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 63
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UasQlInbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 178
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hdWwzwz4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 44 + 60
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 0P2nRrIyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 57
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func iI2QZ9jGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 235
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 10yV81JlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 51
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aFlrooiaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 261
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 66QXsur2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 159
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PwkpqqNdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 118
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ageSnGrsWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 119
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mN8UFhX9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 233
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aaYvDWqMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 56
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func khQ0fXLFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 11 + 129
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FW3YbUvbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 65
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2JVH2D11Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 269
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qVutTLNOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 64
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 22ANjAotWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 33 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MymFAudNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 95
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func G7kp0AYuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 34
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func kx8prO7dWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 136
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EHUIRjB3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 204
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oKesEVXiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 81
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ySDEwkIFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 60
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func c4VeHzU1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 170
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VLZGDVV3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 47
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jzCU5pKtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 219
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BIamuX5aWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 35
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Tb7rLvqLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 61
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mU2jKIeqWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 222
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5OHAx9CWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 57
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GupawY7zWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 268
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cU9fvCyOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 254
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func d6GJQsBNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 11 + 34
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9finEqXLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 155
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func c8PQx2PtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 48
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7difE0hMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 12 + 213
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jWjWTpF4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 243
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func i2M2ZuPJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 248
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1WGvHpO5Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 33
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RklxqO35Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 231
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nemAwArVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 12
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fyPgcFjBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 278
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func YX2gPooPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 287
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NxVoerWAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 250
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9HDb0yZcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 118
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pkFbrXvcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 253
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GDft5u2VWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 25
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UI7Xh5E2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 26
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NuEJgS94Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 14
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MFiolk49Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 205
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 0Vh0V5tDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 179
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ak0sAYJGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 282
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func D1e5pYM2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 82
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zsVe3c2VWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 143
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6r7CgRRRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 10
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6TPCRlHlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 233
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func y94eCK9gWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 11 + 257
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JBAjWZx7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 82
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NVDMaxx2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 18
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func eBistWIBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aL0k5l8eWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jDsLRmbDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 15
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QFSCerAwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 86
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xmshf4cPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 13
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lBSGGpOBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 123
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9ut2yKqMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 215
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qBPncA2HWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 135
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func R3hPKv4CWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 275
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func A8QOfgboWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 182
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CdhrPt6HWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 211
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jjBdliQTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 222
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hRu6lfesWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 157
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func i7fUBuiuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 175
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bkCZyRcMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 23
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Q46km1i1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 277
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1AmgMtm9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 10
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func my02MKidWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 109
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 27JQFP4pWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 245
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func q0lbSrGcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 271
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4q86ra44Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 271
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UPm2a2YcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 292
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wlTz0NRDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 247
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Qz8L3GDcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 24
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mk9MfZ4CWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 216
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func N7HqXbpNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 83
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BTRxYH4XWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 88 + 94
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GzRtVQU8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 167
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6rvx91GIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 251
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func F3c8kqRLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 261
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XHv4uDIdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func l1bbOPfqWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 60
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zaPOefUuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 226
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ae4yKtoyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 275
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func r0hxbrlnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 51
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AW9SzluZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 212
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XgJnHXk2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func IUPgIG8QWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 116
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QGZqpoNcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 257
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hJbu8lQYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 225
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func p3sMqjZZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 95
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func r5wwdCZOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 205
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Z21swWcjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 49
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6wbmXdKNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 291
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func t5L468luWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 114
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cL0LhEZBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 152
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PWm7HpnmWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 17
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func DeUL2ZEDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 276
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Zg4zatwOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 46
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9zgNwe6zWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 155
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bt1af6GyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 138
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PfRI2MQcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 160
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xDaG9vYgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 167
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oWeeif5AWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 161
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 0s5WkDz1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6J8UX5fjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 16
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func G3E58dToWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 124
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7fXk6SAbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 294
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mIwlOYQ3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 181
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5Q36Z5wAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FzaP9XyAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 298
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ySqzUkpDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 19
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hCC8gCz1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 117
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5eLnWeHYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 73
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ScokZpq0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 71
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QJk5UQLlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 109
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mPwE2lbYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 88 + 219
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6fgewjrLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 80
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4gIyu9VhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 176
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 75oHvO4CWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 204
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RjKKKloHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 11 + 242
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CIgqk9lKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 201
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ioNiWCi6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 272
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GVKnvRyjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3bCQklfCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 105
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rB1xSn6WWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 280
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QF0GYjsTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 26
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ig9nSsSpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 246
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5piMChFnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 292
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RRIYfJlSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 98
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4unOkKMXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 205
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5mtuuaVQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 208
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wEDC563kWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 25
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func C1Qwg6IHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 243
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TIN8CYtKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 283
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8OmtbFQlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 69
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8bzb4hp4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7nUkFn69Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 104
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FVAq7xQ9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 20
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PmobcTrHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 172
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 05HSCANjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 48
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Raulm3WrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KvlrqAhkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 251
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XmvJ5NLdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 129
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xq43FUaiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 18
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AkqJxezKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LAXIDGGBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 195
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Pn0TQRoGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zRHivboyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 239
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Y7EBwoWSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 162
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pUeXG6tQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 193
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 0xUipXKKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 267
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UQbSaJONWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 184
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zdO0kdQLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 7 + 51
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AEhCdA8PWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FNcwnOWJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 97
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func c1tuqPsHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 213
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func F1W2OqVQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 107
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VmTdqPjUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 268
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TTEvxXxeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 141
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func DHowhQttWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func V77mmZlDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 171
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1qKlilLyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 99
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func V2fyvDWlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 265
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jkZJrV9bWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Yen0Dkl8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 241
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FTsrrmSJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 175
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Jqy4oK7OWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 157
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FYhUtxyTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pJ4L1qQCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 242
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ULvtjL6SWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 112
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6RJWAWVQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 64
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wQySREsCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 192
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ab9GvIu0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 261
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pm2Av5MQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 234
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TpfpJBqWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 181
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 0E2gTVhiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 272
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func kC7HhIDvWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 141
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 36lOTKGWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 225
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JfkQ07LhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 82
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func WD4lVNyTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 250
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tveHS7eWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 44 + 78
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fhRO2z7IWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 126
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wTkGCHtkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HdIroeCJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 266
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 81fwMLFOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 212
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hRh1BVEqWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 185
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SV67vZwIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 31
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VMyuJaenWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 37
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4taDEG1RWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 123
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Tj9yjOhEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 55
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RafulCVgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 131
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5OCZqHC0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 64
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1lNRUSFnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EAvFA5L6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 133
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mJtvL3PhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 151
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dgjgS5YvWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 290
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nN5003BVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 167
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JJrpIeqeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 205
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oQbVNfxUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 40
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func b1TjIroSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 53
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func osgOa1fdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 13
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lTfeyJ8DWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 37
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func exqXxVteWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 94
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KDvACtLSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 254
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2oRZss2YWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 225
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func v5fOBSvOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 23
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HGELhvDYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 71
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TKFNY4seWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func J615EB25Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 186
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 88p3U0w9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 164
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LY21eoc7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 20 + 252
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ionuitkfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 197
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zXVcMZx3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 43 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ON83q9azWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 81 + 12
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func i7atkxf2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hhwZVxiRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 256
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6ExpAPLtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 228
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3Ksd7zvhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 17
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func leJM0VleWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 149
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SaJV4isLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 28
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fVquZrL0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LpmUXUJvWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 159
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VbyZXElFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 70
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HQxkF832Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 114
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ivfM7baVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 273
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 40wTLeyFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 75 + 130
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Fl75XwdaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 201
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KbLNrB4PWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 12
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func g7PRbIOzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 282
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZQlFyX6TWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 224
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 14rMIFLDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 130
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wIkXh6pJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wEIXMFYEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 241
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func emCwe0kKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 208
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func c09XTpWnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 61
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func OgJ3DGZ4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 139
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jp6QAYhfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 75
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func teQXmN3yWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 118
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mjkLeHTrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 219
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nSZc3wAUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 57
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KCInAHobWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 226
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Fx58sU38Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 42
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wuI1O7iVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 94
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func H5kQdV9CWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 223
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func J7Iunin6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 259
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dfIeHBImWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 44
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KmnX3idYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 63
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Lv8sUTNIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 53
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Aq5RASo2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 43
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BdNXWZqhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 110
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MuGOJKLtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 50
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func P0gBkqrZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 226
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tBIOYSeQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 265
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Npjq8vLXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 112
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dWT1QscMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 289
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 0Q04bsqTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 67
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LIj88A2jWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sT3PNqaPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 99
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wYz7bTpCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 44 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func I5cgzE0FWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 76
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RhGTb6KcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 103
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func q1uF5fVDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 97
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6Zti01qSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 129
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func e1uI0iiVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 65
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func P8iAYFMSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 64 + 246
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dsSDB4LtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func t4Jl2cFNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nekjq0pnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 36
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Xo3jhbBtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hAAZcmt6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Osn8t7ymWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 205
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9y6QXU6lWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 282
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ycsjh82LWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tzAAscUqWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 113
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bF5WkrtkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 100
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func iLnb7TyQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 227
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func v4oLYcP2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 195
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZTWf4LMwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 168
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func P1mM2INJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 152
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jlTkCyG8Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 38TB8QE3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 116
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UcQdFDDsWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 285
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hIRaVfLJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 93
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AH0OXkSlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 215
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1st6KhaZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4GeRQwsZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 241
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xtJIgAY3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 249
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func V6a2TRyZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 224
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GyzvsKNzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 26
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aTyRTw2NWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 223
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func B7hvR1k7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 21
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AE5DCi4BWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BqAvAhqoWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 102
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1AqETLh1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 163
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func iYysWnRLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 64 + 297
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XCEEuv3oWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 31
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func e3u2Ih7aWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 71 + 126
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func siNil1ioWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 253
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func WgSHpK7xWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 227
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GDUWYrAZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 43
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KKkuGlduWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RaAxyoybWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 240
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func k98uepL4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 172
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func u6BRIz0kWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 163
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 88oNg9WQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 11 + 258
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Wtn4QQhzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 196
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func A4GEEIcfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 81
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FHvBjiO3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 33
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5WatmHE4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 49
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SvUvJtRzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 283
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1lstyzNxWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 172
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2gEGPooNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 224
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8L4DYy7PWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Vh2xRRxKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 148
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7SDzYgnhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 112
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KEjLZrFYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 29
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nHlccBzhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 249
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Hl78ZJvKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 148
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 088rwoy0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 75 + 183
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func WFcpYFCfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 60 + 105
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func WAfYMO23Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 288
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func OZJJPeFAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 216
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func tV6sFpUPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 110
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ymNj8YpPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 297
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 21QufmXrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 58
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GuzjPAopWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TilID87BWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 166
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func E6N2WTapWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 255
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func s4TKcic9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 30 + 294
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7KUM1QARWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 190
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Di3dqoTEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 67
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3lFGgbbtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 47
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HPRgfTKiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 185
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PBSACyFNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 37
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UonJo7xGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 179
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KhHfApvaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oT9iTvP4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 250
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func betkesRpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 90 + 186
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cduTk4c3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 252
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func voxbWrw2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 23
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9oOXGi1YWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 78
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func w44vz7mBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 199
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FSxCcLjeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func G1SwNKUoWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 88 + 133
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AGZwufWKWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 83
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LuL9Y8lzWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 138
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gxq4T1wgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 221
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1mn9kkOvWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 129
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sBuIXZl1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 56
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TAUvznLeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 243
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func g3wGOZZSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 271
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TL1CqKA3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 95
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TLPMLUMjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 100
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sdyNScMXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 271
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mKyOmB0TWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 78 + 263
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FnHIIu8YWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 33 + 168
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func jZTe1RL2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 93
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Wf8AdFvMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 81 + 72
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 12MhzGbuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 213
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bfOUove9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 214
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func uZkA8dlyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 13
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 4x1wEGL0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 265
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func pPdsfFenWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 81
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func IVEr3fZAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 134
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gxjHQMrYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 11
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3zwjZLVGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 65 + 93
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func yaOu3ZY9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 226
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func of3M3gIrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 244
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qXtWlqbLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 47
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2XX8baKNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 67
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Q0XbaBXQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 124
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bO75QfViWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 286
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3QqDz6YCWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 176
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ClmhWpWtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nYEf6OEJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 294
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Jy0jfo2SWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 72 + 195
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func b4thS7jVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 299
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EUk5kKwsWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 84 + 208
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func MGP4qAIvWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 46
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func n9BqJzTNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 155
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func o2VkkkwlWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 12 + 257
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GP1tNcCfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func i7e6ZVlyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 5 + 246
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func S3nRvGFcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 267
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 23H7iwPtWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 82
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dJF4HONwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 60
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func k5hmkAZOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 50
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func s9K25j3iWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 104
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Heo1A2M1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 17
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func j1iGZYyeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 96
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xvcqgCH4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 22 + 61
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HA6CBAxGWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 204
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PMrXL7DZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 241
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rnfzGOEeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 283
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func eVGkUsthWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 239
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func AXDrR5WpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 57
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1hL8idsMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 209
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func N8hh6aayWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 107
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fHb9ditDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 101
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bCbIYRLmWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 10
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9A096eJSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 51
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cBG0LxwZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 246
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ty2Z56T7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 13 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func PWOJI3HMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 253
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func RD0zNbRBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 221
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EezO7w3sWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 64
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Fc6CaSejWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 39
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QnNkQxpSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 181
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Wzdbtd0bWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 43
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ehSvX5bPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 53 + 142
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1Jkcz50UWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 256
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7Gpe1JjiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 37 + 35
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func e9w5ifkpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 179
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func NBkJtfKMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 81 + 26
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zGx3heT9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 236
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UfRD6xssWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 155
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xy7JTRWQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 240
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hwF0GStnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 256
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func P9jtOUogWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 46
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bgug0F7JWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 29
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KX7zK5jyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 17
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func t3YWYjLUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 297
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func i6t2L4abWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 152
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8hEhVjpwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 134
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9ujpIHipWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 137
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xKacghb5Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 18
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FR3KJaVrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 178
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3lNodZQhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 256
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func x94NQIldWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 61 + 148
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func eY1ugHeJWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 139
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6PLRMRLwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 280
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GQcPezd2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 43
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dmG5hnPRWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 69 + 11
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8D2zvr9mWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 200
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 3VdwY5CsWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 234
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7do1WIBUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 100
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5tACYdMWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 181
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func lVDydNjYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 4 + 168
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EypVm4O3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 103
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func d8cEmX8TWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 18
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ble5m6TMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 170
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ML9j3VutWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 32 + 229
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8P0zKdPUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 225
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Sh8ZHO8jWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 78
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func C7a8R0teWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 6 + 37
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func aY1hPOzLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 291
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CPyaaDH7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 251
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dkuDADwNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 110
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func uYiKsT2cWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 103
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GuDvA8cPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 107
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func iRTKbs8gWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 186
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8qGTVeFEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 48 + 180
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UgHnCqtOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 59 + 224
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func M8mxBjtSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 158
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func utGDHwC3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 12 + 118
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mbjbVOKMWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 95
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VAupDdzLWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 56
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func vT1WUHM7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 34 + 178
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oPi1eYn3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 253
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bgbWXh3EWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 23 + 229
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func K3IHVMLHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 26 + 29
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func miUmi5aXWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 83
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func s1YQKsm3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 149
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func spkAwGeSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 30
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LgruxiuDWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 54 + 276
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sfZFNhi0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 88
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func vHdUGP3ZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 16 + 199
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ALxmcZcjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 264
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oB7PtyDZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 187
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5JMV8mbkWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 99
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TDWQaBRYWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 66 + 284
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qWjML6wgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 46 + 266
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func X1iHs20nWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 220
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func CIU9ds5VWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 77 + 115
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func FZPRNSfWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 2 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ldTYPdsIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 182
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZlcgKDR9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 75
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2DHsUgfQWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 275
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 8XztsRJWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 76 + 284
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mYKsyepAWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 38 + 291
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cvAkiN1oWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 155
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func YgndO65HWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 40 + 194
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ivl68cXdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 88 + 90
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UpKkVotvWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 262
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func c1jqqShBWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 22
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func twtBk6rUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 242
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JuAISVQ1Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 228
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 7nlaArEnWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 156
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mZN8WIeWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 62 + 201
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func wwg13C63Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 230
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func s0gz66u6Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 93
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zGSasldZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 20
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func S2Y1valiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 76
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Y7SYsHOgWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 55 + 103
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func woPydBC2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 36 + 50
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func Sjx4xNPFWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 84
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xMDEFz6xWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 24 + 271
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ttPpHDHeWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 175
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func y6MeATroWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 42 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JgViiHojWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 80 + 150
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SxY3iPPOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 276
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HwhOgi1WWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 218
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func vTYBgbyyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 51 + 227
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func R9E1h21oWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 14 + 108
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 6QA7MrCoWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 8 + 16
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func xjPehgxyWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 11
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KvskXFxZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 64 + 258
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func UuKElFcjWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 183
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zBHRxrDrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 270
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func yvpSCo7dWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 72
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BeSFT8WpWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 153
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qNIAwvEhWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 229
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HLZDHEXwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 41 + 214
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 2P0BbDOVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 191
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rfwidQqaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 140
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZRV5w7TNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 275
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func osmL4Y2KWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 28 + 31
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func JVxUS6zcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 231
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 68BzhUq9Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 47 + 265
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func nEDcYqTuWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 86 + 176
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mlHwaOpxWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 149
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func B4oWHlAmWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 74
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func rndwZgUWWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 49 + 257
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func SiSXYmdaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 18 + 252
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func BM3x7QPbWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 257
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TAzqMuGdWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 87 + 269
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oAwBSGf4Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 10 + 217
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func hrmW196QWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 68 + 40
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bMJphHn0Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 79 + 256
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 9SXOXgjPWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 64 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dQgBODdUWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 50 + 37
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sNZLslw2Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 84
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oPrerHO3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 223
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func dr1Cqh3ZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 57 + 81
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func P8d1n2cIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 67 + 280
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func DcoofRVwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 39 + 251
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bZ3FWhpxWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 90
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func F8Bl98HIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 31 + 221
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func GkWXpmQEWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 81 + 28
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func gnyoO1TwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 73 + 272
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZqGOu4gHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 17 + 190
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func vhAtjpOSWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 9 + 114
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func HuMv6LkqWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 199
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 1aRFMZyiWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 58 + 213
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ycRyPl3fWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 29 + 167
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func VvzmULhwWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 56 + 232
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func fpWKXF6vWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 68
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func XseOdAvTWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 178
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func qEAwEJCOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 45 + 53
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func cON44QnaWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 82 + 60
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mhmn0rJHWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 12 + 150
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func osgozCPIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 275
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func J94MHmglWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 74 + 74
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func QeCrOO0cWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 19 + 222
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func mvDtTDz7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 35 + 144
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func ZsrRVZHcWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 21 + 101
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func TPCWrsWrWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 89 + 27
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func 5Oiqn0IfWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 52 + 15
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func sjgtdoUNWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 70 + 210
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func luGQP0bIWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 27 + 95
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func zgROxwD7Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 35 + 258
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func LeuZeRJVWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 63 + 145
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func KwV0wRnZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 33 + 287
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func bl2MAEi3Worker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 85 + 57
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func oMwWUq0ZWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 15 + 63
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func T9gJorefWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 3 + 39
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func EquQoEFsWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 83 + 68
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
+func M5ktfRhOWorker(wg *sync.WaitGroup, id int, dataChan <-chan int) {
+    defer wg.Done()
+    for val := range dataChan {
+        result := val * 25 + 35
+        fmt.Printf("worker %d → %d\n", id, result)
+    }
+}
+
